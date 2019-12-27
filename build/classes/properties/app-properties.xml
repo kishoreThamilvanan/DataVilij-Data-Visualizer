@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="GUI_ICONS_RESOURCE_PATH" value="gui.icons"/>
+        <property name="CHARTCSS" value="/chartStyle.css"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="GEAR_ICON" value="gear.png"/>
+        
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="CLUSTERING" value="Clustering"/> <!-- will print current view of image to a file -->        
+        <property name="ALGORITHM" value="Algorithm"/> <!-- will print current view of image to a file -->  
+        <property name="CONFIGURATION" value="Configuration"/> <!-- will print current view of image to a file -->       
+        <property name="CLASSIFICATION" value="Classification"/> <!-- will print current view of image to a file -->        
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+        <property name="GEAR_TOOLTIP" value="Execute Algorithm"/>
+        <property name="SAVECONFIG" value="Save Configuration."/>
+        <property name="CAMBRIA" value="Cambria"/>
+        <property name="EDIT ENTERED DATA" value="Edit Entered Data"/>
+        <property name="NO_OF_INSTANCES" value="No. of Instances: "/>
+        <property name="NO_OF_LABELS" value="No. of Labels: "/>
+        <property name="RUN_ALGORITHM" value="Run Algorithm"/>
+        <property name="META_DATA" value="MetaData"/>
+        <property name="LABELNAMES" value="Label Names: "/>
+        <property name="CLUSTERS_NAME" value="Clusters: "/>
+
+
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+        <property name="UPDATEINTERVAL" value="Update Interval should be Positive Integers Only."/>
+        <property name="MAXITERATIONS" value="Maximum Iterations should be Positive Integers Only."/>
+        <property name="CLUSTERS" value="Clusters should be Positive Integers Only."/>
+        <property name="ZEROVALUES" value="Please enter positive integer values in the appropriate textfeilds"/>
+        <property name="EMPTYTEXTFEILDS" value="Please enter integer values in the appropriate textfeilds"/>
+        <property name="INVALID_DATA" value="INVALID DATA"/>
+        <property name="ZERO_VALUES" value="ZERO VALUES"/>
+        <property name="EMPTY_FEILDS" value="EMPTY TEXT FEILDS"/>
+        <property name="CONTINUOUS_RUN" value="Continuous run?"/>
+        
+        <property name="PRESS_RUN" value="Press Run to continue"/>
+        <property name="PRESS_RUN_TEXT" value="Continue pressing Run button until you've reached max iterations!"/>
+        <property name="MAX_ITERATIONS" value="Max. Iterations: "/>
+        <property name="UPDATE_INTERVAL" value="Update Interval: "/>
+        <property name="MAX_ITERATIONS_REACHED" value="Max Iterations reached."/>
+        <property name="MAX_ITERATIONS_REACHED_TEXT" value="Maximum number of Iterations has been reached. Algorithm Ended."/>
+        <property name="STRING_FORMAT" value="-fx-body-color: rgb(%d, %d, %d);"/>
+        <property name="WARNING" value="Warning!"/>
+        <property name="WARNING_TEXT" value="Algorithm is running in the application!"/>
+        <property name="FORCE_CLOSE" value="Do you want to force close and exit?"/>
+       
+          
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="FILE_CHOOSER_TITLE" value="Open Resource file"/>
+
+        
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value=".tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="DISTINCT_POINT_ERROR" value="Two distinct points cannot have the same name."/>
+        <property name="TEN_LINE_DIALOG" value=" lines. Showing only the first 10 lines in the text area."/>
+        <property name="NAME_ERROR" value="\nAll data instance names must start with the @ character."/>
+        <property name="DATA_FILE" value="                   Data File"/>
+        <property name="DATA_VISUALISATION" value="                      Data visualization"/>
+
+    </property_list>
+    <property_options_list/>
+</properties>

@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2018, 4:53:48 PM
+    Author     : Kishore Thamilvanan
+*/
+
+.chart{
+    -fx-padding: 10px;
+}
+
+.chart-plot-background {
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-content {
+    -fx-padding: 30px;
+}
+
+.chart{
+    -fx-vertical-zero-line-visible: false;
+    -fx-horizontal-zero-line-visible: false;
+}
+.axis {
+    -fx-font-size: 1.4em;    
+    -fx-tick-label-fill: #914800;
+    -fx-font-family: Arial;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+.axis-tick-mark {
+    -fx-stroke: #637040;
+    -fx-stroke-width: 2;
+}
+.axis-label {
+    -fx-text-fill: #462300; 
+}
+
+.text-area .scroll-pane
+{
+    -fx-hbar-policy : never;
+    -fx-vbar-policy : never;
+}
+
+.text-area .scroll-bar:vertical:disabled {
+    -fx-opacity: 0;
+}
+
+.default-color2.chart-series-line { -fx-stroke: #FF0000; }
+
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}
+
+.default-color0.chart-symbol {
+    -fx-background-radius: 5px;
+}
